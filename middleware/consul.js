@@ -11,7 +11,7 @@ const consul = new Consul({
 
 const CONSUL_SERVICE_ID = "Express_Report" //process.env.CONSUL_SERVICE_ID;
 const CONSUL_SERVICE_NAME = "Express_Report" //process.env.CONSUL_SERVICE_NAME ;
-const SERVICE_HOST = "127.0.0.1" //process.env.CONSUL_HOST;
+const SERVICE_HOST = "express-report.onrender.com" //process.env.CONSUL_HOST;
 const SERVICE_PORT =  9000;
 
 
