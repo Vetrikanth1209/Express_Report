@@ -1,5 +1,5 @@
 ### Fetch All Results
-GET http://localhost:9000/results/get-result
+GET https://express-report.onrender.com/results/get-result
 Content-Type: application/json
 
 ### Add a New Result### Submit a new result
