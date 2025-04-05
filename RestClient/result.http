@@ -3,11 +3,11 @@ GET http://localhost:9000/results/get-result
 Content-Type: application/json
 
 ### Add a New Result### Submit a new result
-POST http://localhost:9000/results/post-result
+POST https://express-report.onrender.com/results/post-result
 Content-Type: application/json
 
 {
-  "result_id": "res_12345",
+  "result_id": "res_92945",
   "result_user_id": "user_67890",
   "result_test_id": "test_001",
   "result_score": 85,
