@@ -13,6 +13,10 @@ const overallRoutes = require("./controllers/overallController");
 
 // ✅ Initialize Express App
 const app = express();
+app.get('/', (req, res) => {
+  res.send('Express Report running');
+});
+
 
 app.use(cors());
 app.use(express.json());
@@ -29,5 +33,5 @@ app.use("/overall", overallRoutes);
 // ✅ Start Server & Register Service in Consul
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
